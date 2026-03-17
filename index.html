@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Raport Șoferi</title>
+    <link rel="stylesheet" href="soferi-style.css" />
+  </head>
+  <body>
+    <h1>Raport Șoferi</h1>
+    <form id="form">
+      <label>Număr mașină:</label>
+      <input type="text" id="numarMasina" required /><br />
+
+      <label>Kilometri:</label>
+      <input type="text" id="kilometri" required /><br />
+
+      <label>Exterior curat:</label>
+      <input type="checkbox" id="exterior" /><br />
+
+      <label>Interior curat:</label>
+      <input type="checkbox" id="interior" /><br />
+
+      <label>Anvelope verificate:</label>
+      <input type="text" id="anvelope" placeholder="Detalii anvelope" /><br />
+
+      <label>Lumini funcționale:</label>
+      <input type="checkbox" id="lumini" /><br />
+
+      <label>Documente în mașină:</label><br />
+      <input type="checkbox" id="talon" /> Talon<br />
+      <input type="checkbox" id="asigurare" /> Asigurare<br />
+      <input type="checkbox" id="certificat" /> Certificat DSV<br />
+
+      <label>Echipamente obligatorii:</label><br />
+      <input type="checkbox" id="trusa" /> Trusă medicală<br />
+      <input type="checkbox" id="triunghi" /> Triunghi reflectorizant<br />
+      <input type="checkbox" id="stingator" /> Stingător<br />
+      <input type="checkbox" id="cric" /> Cric<br />
+
+      <label>Defecțiuni observate:</label><br />
+      <textarea id="defectiuni" rows="3" cols="50"></textarea><br />
+
+      <button type="submit">Trimite</button>
+    </form>
+
+    <script src="soferi-script.js"></script>
+  </body>
+</html>

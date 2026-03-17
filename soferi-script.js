@@ -19,7 +19,8 @@ document.getElementById("form").addEventListener("submit", async function (e) {
     defectiuni: document.getElementById("defectiuni").value,
   };
 
-  const url = "URL-ul_tău_Google_Apps_Script"; // <--- modifică aici
+  const url =
+    "https://script.google.com/macros/s/AKfycbxnsw9oOuAo8gP7OvEqJQrP4Lfl7T-XBOYHN0pS9YmflU37i5Wiw0d0rw2aJvdlgZMZ/exec"; // <--- modifică aici
 
   try {
     const response = await fetch(url, {
